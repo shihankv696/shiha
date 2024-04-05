@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 96.5;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 73px;
+}
+
+ul {
+    gap: 40px;
+    display: flex;
+    margin-left: 340px;
+    
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 40;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    gap: 10px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10;
+    gap: 10px;
+    align-content: center;
+    position: absolute;
+    top: 62%;
+    left: 22%;
+    transform: translate(-50%, -50);
+    font-size: 20px;
+    font-display:  rgba(0, 0, 0, 0.686);
+}
+
+.Explore-courses {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #0000ff87;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+    transition: .7s;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 22%;
+    position: absolute;
+    margin-left: 80px;
+}
+
+.Explore-courses:hover {
+    background-color: rgb(7, 7, 139);
+}
+
+.Learn-more {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #696969;
+    color: #000000;
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+    transition: .7s;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 22%;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.Learn-more:hover {
+    background-color: rgb(red, green, blue);
+}
+
+.Flower {
+    height: 460px;
+    width: 373px;
+    position: absolute;
+    top: 25%;
+    right: 13%;
+    position: absolute;
+    border-radius: 30px;
+}
